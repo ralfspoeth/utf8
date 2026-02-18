@@ -16,7 +16,7 @@
     </parent>
 
     <artifactId>utf8</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <name>A Fast UTF-8 Reader/Writer Java Library</name>
     <description>
@@ -51,4 +51,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>utf8-0.0.2</tag>
+  </scm>
 </project>
