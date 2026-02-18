@@ -15,7 +15,7 @@
         <version>2.0.2</version>
     </parent>
 
-    <artifactId>${plumbum.name}</artifactId>
+    <artifactId>utf8</artifactId>
     <version>0.0.2-SNAPSHOT</version>
 
     <name>A Fast UTF-8 Reader/Writer Java Library</name>
