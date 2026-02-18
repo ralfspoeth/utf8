@@ -25,6 +25,11 @@
         in order to decode and encode UTF-8 streams fast.
     </description>
 
+    <scm>
+        <url>scm:git:https://github.com/ralfspoeth/${plumbum.name}</url>
+        <developerConnection>scm:git:https://github.com/ralfspoeth/${plumbum.name}.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
     <build>
         <plugins>
             <!-- sonatype publishing -->
