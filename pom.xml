@@ -11,18 +11,28 @@
     </parent>
 
     <artifactId>utf8</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <url>https://github.com/ralfspoeth/utf8</url>
+
+    <name>A Fast UTF-8 Reader/Writer Java Library</name>
+    <description>
+        This project provides just two simple classes
+        that extends Reader and Writer, respectively,
+        on top of Input and Output Streams
+        in order to decode and encode UTF-8 streams fast.
+    </description>
 
     <scm>
-        <url>scm:git:https://github.com/ralfspoeth/json</url>
+        <url>scm:git:https://github.com/ralfspoeth/utf8</url>
         <developerConnection>scm:git:https://github.com/ralfspoeth/utf8.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.plugin.validation>VERBOSE</maven.plugin.validation>
     </properties>
 
     <build>
