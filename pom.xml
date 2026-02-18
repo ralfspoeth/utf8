@@ -14,7 +14,7 @@
     </parent>
 
     <artifactId>utf8</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>A Fast UTF-8 Reader/Writer Java Library</name>
@@ -28,7 +28,7 @@
     <scm>
         <url>scm:git:https://github.com/ralfspoeth/${plumbum.name}</url>
         <developerConnection>scm:git:https://github.com/ralfspoeth/${plumbum.name}.git</developerConnection>
-        <tag>utf8-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <dependencies>
         <dependency>
