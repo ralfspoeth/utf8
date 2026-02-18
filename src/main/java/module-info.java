@@ -1,3 +1,3 @@
-module io.github.ralfspoeth.utf8 {
+module io.github.ralfspoeth.utfeight {
     exports io.github.ralfspoeth.utf8;
 }
