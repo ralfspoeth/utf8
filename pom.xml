@@ -13,6 +13,12 @@
     <artifactId>utf8</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <scm>
+        <url>scm:git:https://github.com/ralfspoeth/json</url>
+        <developerConnection>scm:git:https://github.com/ralfspoeth/utf8.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <properties>
         <maven.compiler.source>25</maven.compiler.source>
         <maven.compiler.target>25</maven.compiler.target>
