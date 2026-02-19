@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
 
+/**
+ * A fast UTF-8 {@link Reader} implementation.
+ */
 public class Utf8Reader extends Reader {
 
     private static final byte[] DFA_TABLE = {

@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 
+/**
+ * A fast UTF-8 {@link Writer} implementation.
+ */
 public class Utf8Writer extends Writer {
     private final OutputStream out;
     private final byte[] byteBuf;
