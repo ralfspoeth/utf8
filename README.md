@@ -35,7 +35,7 @@ Reading UTF-8 input streams works as
 and writing text into output streams
 ```java
     char[] buffer;
-    try(var os = ...; wrtr = new Utf8Writer(os)) {
+    try(var os = ...; var wrtr = new Utf8Writer(os)) {
         wrtr.write(buffer);
     }
 ```
