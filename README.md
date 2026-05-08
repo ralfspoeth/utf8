@@ -13,7 +13,7 @@ work:
 
     groupId: io.github.ralfspoeth
     artefactId: utf8
-    version: 1.0.1
+    version: 1.0.2
 
 You'll need Java version 21 or later to utilize this library.
 Version 1.0.0 is full operational and compatible, with problems
