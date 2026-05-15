@@ -3,6 +3,8 @@
 A Java module which contains fast `Reader`
 and `Writer` implementations for UTF-8
 `InputStream`s and `OutputStream`s, respectively.
+It uses code borrowed from _Björn Höhrmann_'s
+branchless DFA-based UTF-8 decoder.
 
 ## Usage
 
@@ -13,11 +15,9 @@ work:
 
     groupId: io.github.ralfspoeth
     artefactId: utf8
-    version: 1.0.2
+    version: 1.0.3
 
-You'll need Java version 21 or later to utilize this library.
-Version 1.0.0 is full operational and compatible, with problems
-in the documentation and the POM.
+The library requires JDK 21 or later.
 
 ### Code Examples
 
