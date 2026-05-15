@@ -111,6 +111,7 @@ public class Utf8Writer extends Writer {
      */
     @Override
     public void write(char[] cbuf, int off, int len) throws IOException {
+        Objects.requireNonNull(cbuf);
         Objects.checkFromIndexSize(off, len, cbuf.length);
         int end = off + len;
         int i = off;

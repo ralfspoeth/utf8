@@ -104,6 +104,7 @@ public class Utf8Reader extends Reader {
      */
     @Override
     public int read(char[] cbuf, int off, int len) throws IOException {
+        Objects.requireNonNull(cbuf);
         Objects.checkFromIndexSize(off, len, cbuf.length);
         if (len == 0) return 0;
 
