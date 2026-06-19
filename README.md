@@ -15,10 +15,9 @@ work:
 
     groupId: io.github.ralfspoeth
     artefactId: utf8
-    version: 1.0.4
+    version: 1.0.5
 
-The library requires JDK 21 or later. Version 1.0.3 fixes
-errors in edge cases.
+The library requires JDK 21 or later.
 
 ### Code Examples
 
