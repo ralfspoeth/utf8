@@ -13,7 +13,7 @@
     </parent>
 
     <artifactId>utf8</artifactId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.0.5-SNAPSHOT</version>
 
     <name>A Fast UTF-8 Reader/Writer Java Library</name>
     <description>
